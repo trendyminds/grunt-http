@@ -31,7 +31,7 @@ module.exports = function (grunt) {
       grunt.verbose.writeln(body);
 
       if (dest) {
-        grunt.file.write(dest, body);
+        grunt.file.write(dest, body.html);
       }
 
       if (callback) {
